@@ -16,7 +16,7 @@ mlflow.set_tracking_uri("https://dagshub.com/Rihan786-ctrl/MLFlow--demo.mlflow")
 # MLflow Configuration
 # -----------------------------
 
-mlflow.set_experiment("Wine_RF_Experiment")
+mlflow.set_experiment("Wine_RF_Experiment1")
 
 
 # -----------------------------
@@ -42,8 +42,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 # -----------------------------
 # Hyperparameters
 # -----------------------------
-max_depth = 10
-n_estimators = 11
+max_depth = 8
+n_estimators = 18
 
 
 # -----------------------------
